@@ -29,6 +29,8 @@ const allowedOrigins = [
   process.env.CLIENT_URL,
   'http://localhost:3000',
   'http://localhost:5173',
+  'https://www.propertytick.com', 
+  'https://propertytick.com',     
 ].filter(Boolean);
 
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
